@@ -20,7 +20,7 @@ jobs:
       id-token: write
 
   steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v3
 
     - name: Install cosign
